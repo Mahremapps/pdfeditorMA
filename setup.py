@@ -39,7 +39,7 @@ setup(
     author="Mahremapps",
     author_email="mahremapps@gmail.com",
     packages=["pdfeditorma_core"],
-    package_dir={"pdfeditorma_core": "pypdfeditor_core"},
+    package_dir={"pdfeditorma_core": "pypdfeditorma_core"},
     license="MIT",
     python_requires=">=3.7",
     install_requires=["PyMuPDF>=1.19.2", "PyQt5>=5.15.4"],
