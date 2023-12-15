@@ -31,20 +31,20 @@ long_description = long_description.replace(
 )
 
 setup(
-    name="pyPDFeditor-GUI",
+    name="pdfeditorMA-GUI",
     version=version,
     description="A desktop application to edit PDF files.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Nianze A. TAO",
-    author_email="Augus_1999@outlook.com",
+    author="Mahremapps",
+    author_email="mahremapps@gmail.com",
     packages=["pypdfeditor_core"],
     package_dir={"pypdfeditor_core": "pypdfeditor_core"},
     license="MIT",
     python_requires=">=3.7",
     install_requires=["PyMuPDF>=1.19.2", "PyQt5>=5.15.4"],
-    url="https://github.com/Augus1999/pyPDFeditor-GUI/",
-    project_urls={"Source": "https://github.com/Augus1999/pyPDFeditor-GUI"},
+    url="https://github.com/Mahremapps/pdfeditorMA/",
+    project_urls={"Source": "https://github.com/Mahremapps/pdfeditorMA"},
     include_package_data=True,
     package_data={"pypdfeditor_core": ["icons/*.svg", "icons/*.py"]},
     classifiers=[
@@ -69,5 +69,5 @@ setup(
 
 if os.path.exists("build"):
     rmtree("build")
-if os.path.exists("pyPDFeditor_GUI.egg-info"):
-    rmtree("pyPDFeditor_GUI.egg-info")  # remove egg-info dir
+if os.path.exists("pdfeditorMA_GUI.egg-info"):
+    rmtree("pdfeditorMA_GUI.egg-info")  # remove egg-info dir
