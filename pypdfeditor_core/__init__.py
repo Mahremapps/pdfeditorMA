@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Author: Nianze A. TAO
 """
-core of pyPDFeditor-GUI
+core of pdfeditorMA-GUI
 """
 import os
 import sys
@@ -15,8 +15,8 @@ if not os.path.exists(app_home):
     os.makedirs(app_home)
 
 __system__ = platform.system()
-__author__ = "Nianze A. TAO (Omozawa SUENO)"
-__version__ = "2.2.7"
+__author__ = "Mahremapps"
+__version__ = "1.0.1"
 __all__ = ["main", "reset", "remove"]
 
 
@@ -45,4 +45,4 @@ def main(
     sys.exit(app.exec())
 
 
-# --------------完成！2021年八月十日に--------------
+# ----------- 2023 -------------
