@@ -284,7 +284,7 @@ class MainR(QTabWidget):
         self.__version__ = version
         self.resize(1200, 890)  # 1200 890
         self.setMinimumSize(580, 450)
-        self.setWindowTitle("PDF Editor")
+        self.setWindowTitle("PDF Editor MA")
         self.setWindowIcon(QIcon(str(icon_path / "pdf icon.svg")))
         self.setTabPosition(QTabWidget.West)
         self.setIconSize(QtCore.QSize(35, 35))
@@ -600,12 +600,12 @@ class MainR(QTabWidget):
         text.setHtml(
             """
             <h1 style='color:#02554e;font-family:Verdana'>Welcome 🎃🎉</h1>
-            <p style='color:#333;font-family:Verdana'>Out [1]: Welcome to pyPDFeditor-GUI.</p>
-            <p style='color:#333;font-family:Verdana'>Out [2]: pyPDFeditor-GUI is a cross-platform 
+            <p style='color:#333;font-family:Verdana'>Out [1]: Welcome to PDFeditorMA-GUI.</p>
+            <p style='color:#333;font-family:Verdana'>Out [2]: PDFeditorMA-GUI is a cross-platform 
             application, thanks to <u>Python</u>, <u>PyQt5</u> and <u>PyMuPDF</u>, 
             designed to work on simple PDF handling.</p>
-            <p style='color:#333;font-family:Verdana'>Out [3]: STAND WITH UKRAINE 🇺🇦</p>
-            <p style='color:#333;font-family:Verdana'>Out [4]: STAND WITH ISRAEL 🇮🇱</p>
+            <p style='color:#333;font-family:Verdana'>Out [3]: HAZ - IT</p>
+            <p style='color:#333;font-family:Verdana'>Out [4]: 2023</p>
             <p style='color:#333;font-family:Verdana'>Out [5]: ...</p>
             """
         ) 
@@ -1023,8 +1023,8 @@ class SettingR(QWidget):
         self.button2 = QPushButton(self)
         self.combobox = QComboBox(self)
         self.combobox.addItem("English")
-        self.combobox.addItem("中文")
-        self.combobox.addItem("日本語")
+        self.combobox.addItem("Russian")
+        self.combobox.addItem("Turkmen")
         self.label1.setStyleSheet(LABEL_STYLE)
         self.label2.setStyleSheet(LABEL_STYLE)
         self.label3.setStyleSheet(LABEL_STYLE)
