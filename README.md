@@ -1,4 +1,4 @@
-# pyPDFeditor-GUI
+# pdfeditorMA-GUI
 
 [![PyPI](https://img.shields.io/pypi/v/pyPDFeditor-GUI?color=5f69b4)](https://pypi.org/project/pyPDFeditor-GUI/)
 [![Downloads](https://static.pepy.tech/personalized-badge/pyPDFeditor-GUI?period=total&units=international_system&left_color=black&right_color=green&left_text=Downloads)](https://pepy.tech/project/pyPDFeditor-GUI)
@@ -13,15 +13,15 @@ This project is based on PyQt5 and PyMuPDF and tested on Windows 10 & 11.
 
 ## Welcome 🎃🎉
 
-Welcome to use pyPDFeditor-GUI. pyPDFeditor-GUI is a simple cross-platform application, thanks
+Welcome to use pdfeditorMA-GUI. pdfeditorMA-GUI is a simple cross-platform application, thanks
 to [Python](https://www.python.org/), [PyQt5](https://www.riverbankcomputing.com/software/pyqt/)
 and [PyMuPDF](https://github.com/pymupdf/PyMuPDF), designed to work on simple PDF handling.
 
-I tried my best to make it close to Fluent UI. Icons used can be found [🔗here](https://fluenticons.co/).
+Fluent UI Icons used can be found [🔗here](https://fluenticons.co/).
 
 ## Features
 
-* Support 3 languages: English, 日本語 (Japanese), and 中文 (Traditional Chinese)
+* Support 3 languages: English, Russian, and Turkmen
 * Fluent UI design
 * Cross-platform support
 * Open-source and free to use under MIT licence
@@ -71,7 +71,7 @@ where `<path>` is the directory `setup.py` locates.
 ### install from PyPi
 
 ```bash
-$ pip install -U pyPDFeditor-GUI
+$ pip install -U pdfeditorMA-GUI
 ```
 
 ### build thy own package
@@ -85,13 +85,13 @@ $ python -m build
 
 ### Run
 
-* `$ pdfeditor` to launch the application.
+* `$ pdfeditorma` to launch the application.
 
-* `$ python -m pypdfeditor_core --reset` to reset the application; this will delete all settings and caches. Default
+* `$ python -m pdfeditorma_core --reset` to reset the application; this will delete all settings and caches. Default
   settings will be created at next launch.
 
-* `$ python -m pypdfeditor_core --remove` to remove the whole application.
-* `$ python -m pypdfeditor_core --debug` to enable showing all mupdf errors and/or warnings.
+* `$ python -m pdfeditorma_core --remove` to remove the whole application.
+* `$ python -m pdfeditorma_core --debug` to enable showing all mupdf errors and/or warnings.
 
 ## Screenshot 🎞️
 
@@ -104,7 +104,7 @@ on Windows 11
 
 ## Others
 
-Setting and cache files are stored in the directory `C:\User\USER\.pyPDFeditor-GUI` (Windows) or `home/USER/.pyPDFeditor-GUI`
+Setting and cache files are stored in the directory `C:\User\USER\.pdfeditorMA-GUI` (Windows) or `home/USER/.pdfeditorMA-GUI`
 (Linux and macOS).
 
 Please report any errors to [Issues](https://github.com/Mahremapps/pdfeditorMA/issues). Thank you!
