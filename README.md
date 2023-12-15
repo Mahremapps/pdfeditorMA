@@ -107,4 +107,4 @@ on Windows 11
 Setting and cache files are stored in the directory `C:\User\USER\.pyPDFeditor-GUI` (Windows) or `home/USER/.pyPDFeditor-GUI`
 (Linux and macOS).
 
-Please report any errors to [Issues](https://github.com/Augus1999/pyPDFeditor-GUI/issues). Thank you!
+Please report any errors to [Issues](https://github.com/Mahremapps/pdfeditorMA/issues). Thank you!
