@@ -697,7 +697,7 @@ def set_metadata0(doc: Doc, author: Optional[str]) -> None:
     """
     _time = time.localtime(time.time())
     metadata = doc.metadata
-    metadata["producer"] = "pyPDFEditor-GUI"
+    metadata["producer"] = "pdfeditorMA-GUI"
     metadata["modDate"] = "D:" + "".join(
         (
             str(_time[0]),  # YYYY
@@ -729,7 +729,7 @@ def set_metadata1(
     :return: a dict -> metadata
     """
     _time = time.localtime(time.time())
-    metadata["producer"] = "pyPDFEditor-GUI"
+    metadata["producer"] = "pdfeditorMA-GUI"
     metadata["modDate"] = "D:" + "".join(
         (
             str(_time[0]),  # YYYY

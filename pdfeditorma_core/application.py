@@ -48,7 +48,7 @@ from .functions import (
 
 
 user_home = os.path.expanduser("~")
-app_home = os.path.join(user_home, ".pyPDFeditor-GUI")
+app_home = os.path.join(user_home, ".pdfeditorMA-GUI")
 
 
 class Main(MainR):
@@ -753,7 +753,7 @@ def remove() -> None:
     """
     c = input("Are you sure to remove the whole application? n/Y" "\n>>>")
     if c.lower() == "y":
-        sp.call("pip uninstall pypdfeditor-gui", shell=True)
+        sp.call("pip uninstall pdfeditorma-gui", shell=True)
         if os.path.exists(app_home):
             shutil.rmtree(app_home)
         print("process finished")

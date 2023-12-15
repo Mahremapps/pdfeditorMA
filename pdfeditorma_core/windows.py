@@ -613,8 +613,8 @@ class MainR(QTabWidget):
         label_w = QLabel(self.tab0)
         label_w.setStyleSheet(LABEL_STYLE)
         label_w.setText(
-            "<a href='https://github.com/Augus1999/pyPDFeditor-GUI/' style='color:#a3b5b3'>"
-            "<small>https://github.com/Augus1999/pyPDFeditor-GUI</small></a>",
+            "<a href='https://github.com/Mahremapps/pdfeditorMA/' style='color:#a3b5b3'>"
+            "<small>https://github.com/Mahremapps/pdfeditorMA/</small></a>",
         )
         label_w.setOpenExternalLinks(True)
         self.tab0.label_v = QLabel(self.tab0)

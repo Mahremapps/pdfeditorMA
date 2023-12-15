@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 # Author: Nianze A. TAO
 """
-call pypdfeditor_core.main and others
+call pdfeditorma_core.main and others
 """
 import sys
 from argparse import ArgumentParser
-from pypdfeditor_core import main, reset, remove
+from pdfeditorma_core import main, reset, remove
 
 
 if __name__ == "__main__":
     debug = False
-    parser = ArgumentParser(description="pyPDFeditor-GUI")
+    parser = ArgumentParser(description="pdfeditorMA-GUI")
     parser.add_argument(
         "--reset",
         action="store_true",
