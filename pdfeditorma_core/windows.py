@@ -600,7 +600,7 @@ class MainR(QTabWidget):
         text.setHtml(
             """
             <h1 style='color:#02554e;font-family:Verdana'>Welcome 🎃🎉</h1>
-            <p style='color:#333;font-family:Verdana'>Out [1]: Welcome to PDFeditorMA-GUI.</p>
+            <p style='color:#333;font-family:Verdana'> <span style="color:blue;font-weight:bold" content:"\21E0">&#8672;</span> Out [1]: Welcome to PDFeditorMA-GUI.</p>
             <p style='color:#333;font-family:Verdana'>Out [2]: PDFeditorMA-GUI is a cross-platform 
             application, thanks to <u>Python</u>, <u>PyQt5</u> and <u>PyMuPDF</u>, 
             designed to work on simple PDF handling.</p>
