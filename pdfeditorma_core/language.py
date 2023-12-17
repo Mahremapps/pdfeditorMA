@@ -28,7 +28,7 @@ TIP_L = {
         "update font",
     ],
     "Russian": ["Открыть", "Сохранить", "Настройки", "Очистить", "цвета", "просмотр", "более", "шрифт", "обновить шрифт"],
-    "Turkmen": ["Aç", "Saklamak", "Sazlamalar", "Arassala", "reňkler", "プレビュー", "詳細設定", "şrift", "şrift täzele"],
+    "Turkmen": ["Aç", "Saklamak", "Sazlamalar", "Arassala", "reňkler", "görüş", "has hem", "şrift", "şrift täzele"],
 }
 LAB_L3 = {
     "English": [
@@ -51,14 +51,13 @@ LAB_L3 = {
         "Изменить ограничение",
         ],
     "Turkmen": [
-        "パスワード",
-        "電子透かし",
-        "フォントサイズ：",
-        "保存してから開く",
-        "不透明度：",
-        "回転：",
-        "プレビューモード",
-        "編集制限",
+        "Suw belligi",
+         "Şriftiň ululygy:",
+         "Ýatda saklandan soň açyň",
+         "Durylyk:",
+         "Aýlanma:",
+         "Öňünden görüş tertibi",
+         "Çäklendirmäni üýtgediň",
     ],
 }
 LAB_L4 = {
@@ -69,7 +68,7 @@ LAB_L4 = {
 LAB_LS = {
     "English": ["START DIR", "SAVE DIR", "OPEN AS PREVIOUS"],
     "Russian": ["КАТАЛОГ ДЛЯ НАЧАЛА", "КАТАЛОГ ДЛЯ СОХРАНЕНИЯ", "ОТКРЫТЬ КАК ПРЕДЫДУЩИЙ"],
-    "Turkmen": ["開くルーチング", "保存するルーチング", "前使ったルーチングを覚える"],
+    "Turkmen": ["BAŞLANGYÇ ", "ÝATDA SAKLANYLJAK ÝER", "ÖNCEKİ OLARAK AÇ"],
 }
 LAB_LP = {
     "English": [
@@ -125,14 +124,14 @@ MENU_L = {
         "установить положение водяного знака",
     ],
     "Turkmen": [
-        "削除",
-        "ビュー",
-        "名前を付けて保存",
-        "イメージを出す",
-        "90°を旋転する",
-        "-90°を旋転する",
-        "ページを移動する",
-        "透かしの位置を移動する",
+        "poz",
+        "görmek",
+        "ýatda sakla",
+        "şekilleri çykarmak"
+        "90° aýlamak",
+        "-90° aýlamak",
+        "göçmek",
+        "suw belligini kesgitläň",
     ],
 }
 LINE_L = {
@@ -163,11 +162,11 @@ LINE_L = {
         """,
     ],
     "Turkmen": [
-        "    使用者のパスワード",
-        "    所有者のパスワード",
+        "Ulanyjy paroly",
+        "Eýesiniň paroly",
         """
-    此処に目録を編集
-    例は以下の通り
+    Katalogy şu ýerde redaktirleýäris
+    Mysal üçin:
 
     *-->chapter 1-->1
     **-->section 1-->1
@@ -183,11 +182,7 @@ MESSAGE = {
         "Cannot save! Try a new file name...",
     ],
     "Russian": ["    Ошибка формата: \n невозможно открыть этот файл", "{} изображений сохранено в {}", "Невозможно сохранить! Попробуйте новое имя файла..."],
-    "Turkmen": [
-        "    格式エラー：\n このファイルが開けません",
-        "{}幅のイメージが{}に保存されました",
-        "すみません。保存できませんでした。\n 新たな名前を付けてみて下さい。。。",
-    ],
+    "Turkmen": ["    Format ýalňyşlygy: \ bu faýly açyp bolmaýar", "{} suratlar {}-da saklanan," "Ýatda saklap bolmaýar! Täze faýl adyny synap görüň ... "],
 }
 
 
