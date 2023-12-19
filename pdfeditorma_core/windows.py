@@ -599,14 +599,14 @@ class MainR(QTabWidget):
         text.setReadOnly(True)
         text.setHtml(
             """
-            <h1 style='color:#02554e;font-family:Verdana'>Welcome 🎃🎉</h1>
-            <p style='color:#333;font-family:Verdana'> <span style="color:blue;font-weight:bold" content:"\21E0">&#8672;</span> Out [1]: Welcome to PDFeditorMA-GUI.</p>
-            <p style='color:#333;font-family:Verdana'>Out [2]: PDFeditorMA-GUI is a cross-platform 
-            application, thanks to <u>Python</u>, <u>PyQt5</u> and <u>PyMuPDF</u>, 
-            designed to work on simple PDF handling.</p>
-            <p style='color:#333;font-family:Verdana'>Out [3]: HAZ - IT</p>
-            <p style='color:#333;font-family:Verdana'>Out [4]: 2023</p>
-            <p style='color:#333;font-family:Verdana'>Out [5]: ...</p>
+            <h1 style='color:#02554e;font-family:Verdana'>Welcome PDFeditorMA-GUI ðŸŽƒðŸŽ‰</h1>
+            <h1 style='color:#333;font-family:Verdana'> <span style='font-size:100px;color:#02554e'>&#8592;</span> Click MERGE icon to merge PDFs</h1>
+            <p> </p>
+			<h1 style='color:#333;font-family:Verdana'> <span style='font-size:100px;color:#02554e'>&#8592;</span> Click ORGANISE icon to rotate, extract pages from PDF</h1>
+            <p style='color:#333;font-family:Verdana'>HAZ - IT</p>
+            <p style='color:#333;font-family:Verdana'>2023</p>
+            <p style='color:#333;font-family:Verdana'></p>
+            
             """
         ) 
         shadow(text, QColor(0, 0, 0, 90), 10)
