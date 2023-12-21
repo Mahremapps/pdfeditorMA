@@ -16,7 +16,7 @@ if not os.path.exists(app_home):
 
 __system__ = platform.system()
 __author__ = "Mahremapps"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __all__ = ["main", "reset", "remove"]
 
 
