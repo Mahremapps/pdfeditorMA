@@ -50,7 +50,7 @@ LAB_L3 = {
         "Режим предварительного просмотра",
         "Изменить ограничение",
         ],
-    "Turkmen": [
+    "Turkmen": ["AÇAR Sözjügi",
         "Suw belligi",
          "Şriftiň ululygy:",
          "Ýatda saklandan soň açyň",
@@ -182,7 +182,7 @@ MESSAGE = {
         "Cannot save! Try a new file name...",
     ],
     "Russian": ["    Ошибка формата: \n невозможно открыть этот файл", "{} изображений сохранено в {}", "Невозможно сохранить! Попробуйте новое имя файла..."],
-    "Turkmen": ["    Format ýalňyşlygy: \ bu faýly açyp bolmaýar", "{} suratlar {}-da saklanan," "Ýatda saklap bolmaýar! Täze faýl adyny synap görüň ... "],
+    "Turkmen": ["    Format ýalňyşlygy: \ bu faýly açyp bolmaýar", "{} suratlar {}-da saklanan", "Ýatda saklap bolmaýar! Täze faýl adyny synap görüň ... "],
 }
 
 

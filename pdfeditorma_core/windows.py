@@ -594,19 +594,15 @@ class MainR(QTabWidget):
         text.setReadOnly(True)
         text.setHtml(
             """
-            <h1 style='color:#02554e;font-family:Verdana'>                              PDFeditorMA-GUI </h1>
-            <p> --------------------------------------------------------------------------</p>
+            <h1 style='color:#02554e;text-align:center;font-family:Verdana'>                              PDFeditorMA-GUI </h1>
+
             <h1 style='color:#333;font-family:Verdana'> <span style='font-size:100px;color:#02554e'>&#8592;</span> Click MERGE icon to merge PDFs</h1>
-            <p> --------------------------------------------------------------------------</p>
             <p> --------------------------------------------------------------------------</p>
 			<h1 style='color:#333;font-family:Verdana'> <span style='font-size:100px;color:#02554e'>&#8592;</span> Click ORGANISE icon to rotate, extract pages from PDF</h1>
             <p> --------------------------------------------------------------------------</p>
-            <p> --------------------------------------------------------------------------</p>
             <h1 style='color:#333;font-family:Verdana'> <span style='font-size:100px;color:#02554e'>&#8592;</span> Click SECURITY icon to secure PDF</h1>
             <p> --------------------------------------------------------------------------</p>
-            <p> --------------------------------------------------------------------------</p>
             <h1 style='color:#333;font-family:Verdana'> <span style='font-size:100px;color:#02554e'>&#8592;</span> Click METADATA icon to add metadata to PDF</h1>
-            <p> --------------------------------------------------------------------------</p>
             <p> --------------------------------------------------------------------------</p>
             <h1 style='color:#02554e;font-family:Verdana'>HAZ-IT 2023 </h1>
             <p style='color:#333;font-family:Verdana'></p>
